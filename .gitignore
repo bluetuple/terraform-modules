@@ -1,0 +1,11 @@
+**/.secrets
+
+# Local .terraform directories
+**/.terraform
+**/*.tfstate
+**/*.tfstate.backup
+**/*.tfplan*
+
+# secrets
+*.terraform*
+.DS_Store
