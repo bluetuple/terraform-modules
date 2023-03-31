@@ -3,6 +3,7 @@
 
 #### to be called:
 module "my_storage_bucket" {
+    
   source      = "https://github.com/bluetuple/terraform-modules/gcp/storage/bucket"
   bucket_name = "my-bucket"
   location    = "us-central1"
