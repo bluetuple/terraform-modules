@@ -1,1 +1,1 @@
-# terrafrom modules for major hyperscaler #
+# terraform modules for major hyperscaler #
