@@ -4,7 +4,8 @@
 #### to be called:
 module "my_storage_bucket" {
 
-    source      = "https://github.com/bluetuple/terraform-modules/gcp/storage/bucket"
+    source      = "https://github.com/bluetuple/terraform-modules//gcp/storage/bucket"
+    # doube slash to separate repo from modules
     bucket_name = "my-bucket"
     location    = "us-central1"
     project_id  = "my-project-id"
